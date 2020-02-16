@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SportBubble</string>
+
+    <string-array name="country_arrays">
+        <item>Choose Preferred Country </item>
+        <item>Bangladesh</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="grounds">
+        <item>Choose Preferred Ground To Play </item>
+        <item>Tricky Taka</item>
+        <item>Clay Grounds</item>
+
+    </string-array>
+    <string name="signUp">SIGN UP</string>
+    <string name="name">Enter Name</string>
+    <string name="bookBtn">Book Slot</string>
+    <string name="bookTip">Book a ground!</string>
+    <string name="mapTip">Find nearby sport services!</string>
+    <string name="checkAvail">Check Availability</string>
+    <string name="password">Password</string>
+    <string name="email">E-Mail</string>
+    <string name="username">Username</string>
+    <string name="slogan">Come get your news.</string>
+    <string name="redirect_login">Already Have an Account?  Sign in</string>
+    <string name="redirect_signup">First Time User?  Sign Up</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enterLoc">Enter Your Location</string>
+    <string name="google_maps_key">AIzaSyDD6EZ5Md3izS7xDDcozmkNnVxn8hpW95c</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

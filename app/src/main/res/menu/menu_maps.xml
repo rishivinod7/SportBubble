@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mapsdemo.MapsActivity">
+
+    <item
+        android:id="@+id/back"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        style="@style/HeaderBar"
+        app:theme="@style/ActionBarThemeOverlay"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="101"
+        android:icon="@drawable/refresh"
+        style="@style/HeaderBar"
+        app:theme="@style/ActionBarThemeOverlay"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        app:showAsAction="ifRoom"
+        android:title="">
+
+    </item>
+
+</menu>

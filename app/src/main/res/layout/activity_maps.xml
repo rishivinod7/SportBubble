@@ -1,0 +1,96 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_blue"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/map_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#074679"
+        android:elevation="4dp"
+        app:title="@string/app_name" />
+
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map_toolbar"
+        android:id="@+id/placeholder_map"
+        >
+
+
+        <EditText
+            android:id="@+id/TF_location"
+            android:layout_width="290dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/edit_text_top"
+            android:ems="10"
+            android:hint="@string/enterLoc"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/B_search"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/TF_location"
+            android:background="@drawable/button"
+            android:onClick="onClick"
+            android:text="Search" />
+
+        <Button
+            android:id="@+id/B_football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TF_location"
+            android:layout_alignParentStart="true"
+            android:onClick="onClick"
+            android:text="Football Grounds" />
+
+        <Button
+            android:id="@+id/B_stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TF_location"
+            android:layout_toEndOf="@+id/B_football"
+            android:onClick="onClick"
+            android:text="Sports Stores" />
+
+        <Button
+            android:id="@+id/B_refreshments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TF_location"
+            android:layout_toEndOf="@+id/B_stores"
+            android:onClick="onClick"
+            android:text="Refreshments"
+            android:textSize="12sp" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/B_football"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

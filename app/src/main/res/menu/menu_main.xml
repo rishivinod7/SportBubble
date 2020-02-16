@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="300"
+        android:icon="@drawable/sports_icon"
+        style="@style/HeaderBar"
+        android:tooltipText="@string/mapTip"
+        app:theme="@style/ActionBarThemeOverlay"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        app:showAsAction="ifRoom"
+        android:title="">
+
+    </item>
+    <item
+        android:id="@+id/book_ground"
+        android:orderInCategory="301"
+        android:icon="@drawable/schedule_icon"
+        style="@style/HeaderBar"
+        android:tooltipText="@string/bookTip"
+        app:theme="@style/ActionBarThemeOverlay"
+        app:popupTheme="@style/ActionBarPopupThemeOverlay"
+        app:showAsAction="ifRoom"
+        android:title="">
+
+    </item>
+
+</menu>
